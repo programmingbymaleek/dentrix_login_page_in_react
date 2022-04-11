@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dentrix_login_page_in_react/static/css/main.b2f7b1de.css",
+    "main.js": "/dentrix_login_page_in_react/static/js/main.3d59f8d9.js",
+    "static/js/787.470243c4.chunk.js": "/dentrix_login_page_in_react/static/js/787.470243c4.chunk.js",
+    "index.html": "/dentrix_login_page_in_react/index.html",
+    "main.b2f7b1de.css.map": "/dentrix_login_page_in_react/static/css/main.b2f7b1de.css.map",
+    "main.3d59f8d9.js.map": "/dentrix_login_page_in_react/static/js/main.3d59f8d9.js.map",
+    "787.470243c4.chunk.js.map": "/dentrix_login_page_in_react/static/js/787.470243c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2f7b1de.css",
+    "static/js/main.3d59f8d9.js"
+  ]
+}
