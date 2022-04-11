@@ -1,0 +1,123 @@
+div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 350px;
+  height: 550px;
+  background-color: aqua;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 1em 2em;
+  background-color: white;
+}
+
+#login_logo {
+  background: url(https://live.dentrixascend.com/assets/newLogo-65ae292492cd9cbab8fa9c3f589da36f.svg) no-repeat;
+  width: 280px;
+  height: 43px;
+}
+
+legend {
+  border-bottom: 1px solid #92D3EE;
+  padding-bottom: 5px;
+  font-size: 1.3em;
+}
+
+label {
+  text-align: right;
+  display: inline-block;
+  width: 100px;
+  margin-right: 5px;
+}
+
+.group_one {
+  margin-bottom: 20px;
+}
+.span_margin{
+  margin-bottom: 10px;
+}
+#forgot_pass {
+  display: block;
+  color: white;
+  text-align: right;
+  margin-top: 10px;
+}
+
+#forgot_pass a {
+  text-decoration: none;
+}
+
+.group_one input {
+  padding: .35em;
+}
+
+form {
+  max-width: 280px;
+  margin-bottom: 50px;
+}
+
+#send {
+  margin-top: 2em;
+  width: 10em;
+  padding: .5em 1.5em;
+  background-color: #264B8F;
+  color: white;
+  font-size: 16px;
+}
+
+.child_forms {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.login_div {
+  display: flex;
+  border-top: 1.3px solid #92D3EE;
+  justify-content: center;
+}
+
+.outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
