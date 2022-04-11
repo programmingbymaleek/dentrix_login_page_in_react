@@ -1,6 +1,7 @@
 // import './App.css';
 import './form.style.scss'
 import Form_input from './component/input.componet';
+import Custom_button from './component/button.component';
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
               </div>
             </div>
             <div className='login_div'>
-              <input type="submit" name='send' id='send' value="Log in" />
+              <Custom_button name="Submit" type={'button'} id={'send'} />
+
             </div>
 
           </div>
